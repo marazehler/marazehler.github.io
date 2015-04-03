@@ -4,15 +4,17 @@ body {
 	background: #000000;
 	color: #ffffff;
 	font-weight: 200;
-	margin: 1cm 2cm;
+	margin: 1cm 3cm;
 }
 
 p {
-	font-size: 18px;
+	font-family: 'Merriweather', serif;
+	font-size: 16px;
 	line-height: 22px;
 }
 
 h1 {
+	font-family: 'Quicksand', sans-serif;
 	font-weight: 100;
 	font-size: 62px;
 	text-transform: uppercase;
@@ -23,11 +25,14 @@ ul {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: justify;
+	font-family: 'Merriweather', serif;
 	font-size: 16px;
 	line-height: 22px;
 }
 
 #slogan {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
 	font-style: italic;
 	font-size: 44px;
 }

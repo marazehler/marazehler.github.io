@@ -1,0 +1,197 @@
+body {
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 800;
+	padding: .5em;
+}
+
+h2 {
+	font-size: 1.5em;
+	padding: .5em;
+}
+
+header {
+	background-color: #9030ff;
+}
+
+img {
+	width: 500px;
+	padding: 50px;
+}
+
+
+#logo {
+	background-color: #9030ff;
+	color: white;
+	display: inline;
+	padding: .6 0;
+	float: left;
+}
+
+#banner {
+	background-color: #54d8fc;
+	text-align: center;
+}
+
+#heroimage {
+	width: 40%;
+	float: left;
+	display: block;
+}
+
+#herotext {
+	float: right;
+	display: block;
+	width: 40%;
+	text-align: center;
+	color: #9030ff;
+	padding: 4em;
+}
+
+#herotext h2 {
+	padding: 1.5em;
+}
+
+#herotext h3 {
+	padding: 1.5em;
+}
+
+
+#tryfreebutton {
+	background-color: #ffdd55;
+	padding: 1.3em;
+	display: block;
+}
+
+#tryfreebutton a {
+	text-decoration: none;
+	font-size: 1.5em;
+	color: #9030ff;
+}
+
+
+nav {
+	background-color: #9030ff;
+	color: white;
+	font-size: 1.2em;
+	padding: 1em 1.5em;
+	float: right;
+}
+
+
+nav a {
+	display: block;
+	color: white;
+	padding: .6em;
+	text-decoration: none;
+	float: right;
+}
+
+
+a:hover {
+	color: #000000;
+}
+
+#container {
+	text-align: center;
+}
+
+#staff {
+	float: left;
+/*	display: inline;*/
+	background-color: #ffdd55;
+	width: 33.33%;
+	height: 400px;
+}
+
+#staff img {
+	width: 100px;
+}
+
+#staff a {
+	display: inline-block;
+	float: left;
+	height: 6em;
+	width: 40%;
+}
+
+#philosophy {
+	background-color: #f8f478;
+	width: 33.33%;
+	display: inline-block;
+	height: 400px;
+	text-decoration: none;
+}
+
+#philosophy p {
+	padding: 2em;
+}
+
+#schedule {
+	background-color: #ffdd55;
+	width: 33.33%;
+	float: right;
+	height: 400px;
+}
+
+iframe {
+	width: 300px;
+	height: 200px;
+	padding: 2em;
+}
+
+
+footer {
+	font-weight: 200;
+	line-height: 1.2em;
+	background-color: #9030ff;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+footer img {
+	width: 50px;
+	float: right;
+}
+
+#contact {
+	float: left;
+	display: block;
+	width: 200px;
+	margin: 40px;
+	color: white;
+}
+
+#sitemap {
+	text-align: center;
+	float: left;
+	width: 200px;
+	margin: 40px;
+}
+
+#sitemap a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-color: red;
+}
+
+#socialicons {
+	display: block;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear:both;
+	height:0;
+}
+
